@@ -4,6 +4,10 @@ if [[ $1 =~ \.webm$ ]]
 then
         /usr/bin/mpv $1
 
+elif	[[ $1 =~ twitch.tv ]]
+then
+	/usr/bin/livestreamer $1 best
+
 
 elif [[ $1 =~ youtube.com ]] || [[ $1 =~ youtu.be ]]
 then
