@@ -9,10 +9,11 @@ allow_bold = false
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = berry 8
+#font = berry
+font = Droid Sans Mono for Powerline 10
 scrollback_lines = 1000
 search_wrap = true
-geometry = 380x220
+geometry = 680x420
 #icon_name = terminal
 
 # 0.0: opaque, 1.0: transparent
@@ -32,37 +33,34 @@ browser = /home/akari/browser.sh
 # (default if unset: all graphic non-punctuation/space characters)
 word_chars = -A-Za-z0-9,./?%&#:_=+@~
 
-[colors]
-foreground = #839496
-foreground_bold = #eee8d5
-foreground_dim = #888888
-background = #1f1f22
-cursor = #93a1a1S
-
-
-[colors]
-foreground = #a5a5a5
-foreground_bold = #fedfed
+#[colors]
+#foreground = #839496
+#foreground_bold = #eee8d5
 #foreground_dim = #888888
-background = #161616
-#cursor = #dcdccc
+#background = #1f1f22
+#cursor = #93a1a1S
 
-color0 = #343434
-color1 = #802828
-color2 = #909737
-color3 = #b27d12
-color4 = #1e5673
-color5 = #642337
-color6 = #196271
-color7 = #b3b3b3
-color8 = #424242
-color9 = #8a3232
-color10 = #9ca554
-color11 = #ddb62b
-color12 = #1e6a9a
-color13 = #7d2d41
-color14 = #197885
-color15 = #b3b3b3
+
+[colors]
+color15 = #66666a
+color7 = #30303a
+color1 = #da637e
+color9 = #f0a3a3
+color3 = #ab93b9
+color11 = #cbb6d7
+color5 = #ac8ac1
+color13 = #d2bbe4
+color4 = #7787a3
+color12 = #a8c9eb
+color2  = #b1b792
+color10  = #C7E6B8
+color6  = #63918b
+color14  = #92b5b0
+color0  = #b1b8c3
+color8  = #cdcdcd
+background = #20202f
+foreground = #d2d2d2
+cursor = #508ac5
 
 #[hints]
 #font = Monospace 12
