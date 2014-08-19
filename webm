@@ -1,0 +1,9 @@
+#!/bin/bash
+# usage: webm file out [start position] [number of second to cut]
+if [[ -z $3 ]]
+then
+	ffmpeg -i $1 -c:v libvpx -an $2.webm
+else
+	ffmpeg -ss $3 -i $1 -t $4 -c:v libvpx -an $2.webm
+fi
+
